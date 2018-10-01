@@ -14,17 +14,16 @@ repositories {
 
     maven { url "http://jasperreports.sourceforge.net/maven2" }
     maven { url "http://jaspersoft.artifactoryonline.com/jaspersoft/third-party-ce-artifacts" }
-    flatDir { dirs 'libs' }
 }
 
 dependencies {
-    compile 'net.sf.jasperreports:jasperreports',
+    compile project(":fonts"),
+            'net.sf.jasperreports:jasperreports',
             'commons-io:commons-io',
             'xalan:xalan',
             'org.apache.poi:poi',
             'org.apache.logging.log4j:log4j-1.2-api',
-            'org.apache.logging.log4j:log4j-core',
-            fileTree(dir: 'libs', include: ['*.jar'])
+            'org.apache.logging.log4j:log4j-core'
 
     compileOnly 'org.projectlombok:lombok'
 
