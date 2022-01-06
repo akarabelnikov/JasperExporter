@@ -5,6 +5,7 @@ plugins {
 }
 
 repositories {
+    mavenCentral()
     maven {
         url "http://jasperreports.sourceforge.net/maven2"
         allowInsecureProtocol = true
