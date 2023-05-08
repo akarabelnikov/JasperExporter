@@ -46,7 +46,7 @@ subprojects {
         dependencies {
             dependency 'net.sf.jasperreports:jasperreports:6.20.0'
             dependency 'commons-io:commons-io:2.11.0'
-            dependency 'xalan:xalan:2.7.2'
+            dependency 'xalan:xalan:2.7.3'
             dependency 'org.apache.poi:poi:4.1.1'
             dependency 'org.apache.logging.log4j:log4j-1.2-api:2.20.0'
             dependency 'org.apache.logging.log4j:log4j-core:2.20.0'
