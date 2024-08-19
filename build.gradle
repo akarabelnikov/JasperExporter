@@ -40,7 +40,7 @@ subprojects {
 
     dependencyManagement {
         imports {
-            mavenBom "org.junit:junit-bom:5.10.3"
+            mavenBom "org.junit:junit-bom:5.11.0"
         }
 
         dependencies {
